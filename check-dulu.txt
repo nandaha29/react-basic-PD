@@ -1,0 +1,24 @@
+STEP BY STEP PROGRAM SEDERHANA
+
+>>> BMI
+SATU
+-   value= {this.state.berat} 
+            // hubungkan state dgn value, utk panggil variabel
+-   onChange= { ev = this.setState({berat: ev.target.value})} 
+            //nilai variabel berat akan menyesuaikan nilai yg diinput user lalu setState yang didalamnya nama state = berat, ev = variabel callback 
+            // utk mengubah isinya  dan ini perubahana nilai
+-   ev.target.value = utk mendapatkan nilai yg dimasukkan oleh user ke input tsb
+-   event.preventDefault() -> utk menghentikan fungsi default dari event submit. 
+            // Jadi ketika formnya di submit biasanya akan reload page, tp dg preventDefault bisa mencegah hal itu terjadi, 
+            // dan form nya hanya sebatas melakukan validasi spt required, number, dll
+
+>>> KONVERSI
+SATU
+-   parseInt -> mengubah String menjadi Integer/ bilbut
+-   bind() -> agar referensi nilai "this" di dalam suatu fungsi tidak berubah saat dieksekusi.
+-   if nested -> jika input (biner), jika output (oktal)
+    if(input == 10{
+    IF(output == 8){
+        hasil ubah ke int (input) ubah ke string (output)
+    }}
+    
